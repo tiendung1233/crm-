@@ -174,9 +174,9 @@ npm install
 
 ```env
 PORT=3000
-JWT_SECRET=your_jwt_secret
-EMAIL_USER=your_email@gmail.com
-EMAIL_PASS=your_email_app_password
+EMAIL_USER=nguyentiendungdev292002@gmail.com
+EMAIL_PASS=stuw xcqq ubbc yiqx
+JWT_SECRET=fbbhwbefbheb
 FRONTEND_URL=http://localhost:5173
 ```
 
