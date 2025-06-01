@@ -239,3 +239,13 @@ npm start
    - Environment variables
    - Logging
    - Documentation
+
+## Firebase Setup
+
+1. Create a Firebase project at https://console.firebase.google.com/
+2. Go to Project Settings > Service Accounts
+3. Click "Generate New Private Key" to download your service account credentials
+4. Rename the downloaded file to `firebaseAdminConfig.json` and place it in the `server` directory
+5. Make sure `firebaseAdminConfig.json` is in your `.gitignore` file and never commit it to version control
+
+Note: The `firebaseAdminConfig.example.json` file shows the required structure of the config file. Replace the placeholder values with your actual Firebase credentials.
